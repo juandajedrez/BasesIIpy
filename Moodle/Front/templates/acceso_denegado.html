@@ -1,0 +1,15 @@
+{% extends 'plantillas/page_base.html' %}
+{% block title %}
+    <title>Acceso Denegado</title>
+{% endblock %}
+
+{% block body %}
+<div class="d-flex justify-content-center align-items-center" style="height: 100vh; color: white;">
+    <div style="background: rgba(223, 6, 6, 0.884); border-radius: 15px; padding: 30px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        <h1>Acceso Denegado</h1>
+        <p>No tienes permiso para acceder a esta página.</p>
+        <a href="javascript:history.back()" class="btn btn-light">Volver</a>
+    </div>
+</div>  
+
+{% endblock %}
